@@ -2,8 +2,24 @@
   box-sizing: border-box;
 }
 
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .list {
   list-style: none;
+  width: 900px;
+
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.float {
+  float: left;
 }
 
 .article {
@@ -14,10 +30,18 @@
 
   background-color: #fff;
 
-  /* box-shadow: 0px 0px 0px 0px #red; */
+  margin-right: 30px;
+
+  margin-top: 30px;
 }
 
-.article-title {
+.article-big {
+  width: 770px;
+  text-align: left;
+
+  filter: drop-shadow(0px 2px 6px rgba(0, 0, 0, 0.1));
+
+  background-color: #fff;
 }
 
 li > h3 {
@@ -60,4 +84,8 @@ li > p {
 
 .fourth-color-text {
   color: #b1b1b1;
+}
+
+.margin {
+  margin-left: 10px;
 }
