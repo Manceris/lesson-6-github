@@ -1,5 +1,14 @@
-h1 {
-  background-color: green;
-  color: wheat;
-  padding: 15px;
+* {
+  box-sizing: border-box;
+}
+
+.article {
+  width: 370px;
+  position: absolute;
+
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+
+  background-color: red;
 }
